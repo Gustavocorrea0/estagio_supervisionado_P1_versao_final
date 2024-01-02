@@ -186,7 +186,7 @@ CREATE TABLE combustivel (
 
 CREATE TABLE semente (
     id_semente SERIAL NOT NULL,
-    nome_semente VARCHAR(255)NOT NULL,
+    nome_semente VARCHAR(255) NOT NULL,
     marca_semente VARCHAR(255) NOT NULL,
     quantidade_em_sacos NUMERIC(10,2) NOT NULL,
     quantidade_minima_em_sacos NUMERIC(10,2) NOT NULL,
